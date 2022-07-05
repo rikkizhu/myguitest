@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS 自动化测试" verbose="1" configfailurepolicy="continue">
+    <test name="小demo">
+        <classes>
+            <class name="com.test.gui.rikky.TestA"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
