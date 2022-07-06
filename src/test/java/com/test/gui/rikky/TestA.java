@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class TestA {
     @BeforeTest
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver","Users/zhuruiqi/Documents/code_repo/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/zhuruiqi/Documents/code_repo/chromedriver");
     }
 
     @Test
