@@ -1,6 +1,7 @@
 package com.test.gui.rikky;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 /**
@@ -10,6 +11,10 @@ import org.testng.annotations.Test;
  * @create: 2022-07-05 23:15
  **/
 public class TestA {
+    @BeforeTest
+    public void setUp(){
+        System.setProperty("webdriver.chrome.driver","Users/zhuruiqi/Documents/code_repo/chromedriver");
+    }
 
     @Test
     public void test1() {
